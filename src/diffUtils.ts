@@ -1,5 +1,7 @@
+'use strict';
+
 import { Position, Range, TextEdit, Uri, WorkspaceEdit, TextEditorEdit } from 'vscode';
-import jsDiff = require('diff');
+import * as jsDiff from 'diff';
 
 export enum EditTypes { EDIT_DELETE, EDIT_INSERT, EDIT_REPLACE };
 

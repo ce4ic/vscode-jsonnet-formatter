@@ -1,7 +1,7 @@
 'use strict';
 
-import vscode = require('vscode');
-import cp = require('child_process');
+import * as vscode from 'vscode';
+import * as cp from 'child_process';
 import { Buffer } from 'buffer';
 import { getEdits } from './diffUtils';
 
