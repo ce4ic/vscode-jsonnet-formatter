@@ -2,7 +2,7 @@
   "name": "jsonnet-formatter",
   "displayName": "jsonnet Formatter",
   "description": "Provide jsonnet vscode format support.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "xrc-inc",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "activationEvents": [
     "onLanguage:jsonnet"
   ],
-  "main": "./out/main",
+  "main": "./out/extension",
   "contributes": {
     "languages": [
       {
