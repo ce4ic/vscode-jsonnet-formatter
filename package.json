@@ -4,6 +4,15 @@
   "description": "Provide jsonnet vscode format support.",
   "version": "0.1.0",
   "publisher": "xrc-inc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xreception/vscode-jsonnet-formatter.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xreception/vscode-jsonnet-formatter/issues"
+  },
+  "homepage": "https://github.com/xreception/vscode-jsonnet-formatter#readme",
   "engines": {
     "vscode": "^1.17.0"
   },
@@ -24,12 +33,6 @@
         "extensions": [
           ".jsonnet"
         ]
-      }
-    ],
-    "commands": [
-      {
-        "command": "extension.format-jsonnet",
-        "title": "Format Jsonnet Files"
       }
     ]
   },
